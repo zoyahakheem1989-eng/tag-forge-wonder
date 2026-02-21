@@ -14,7 +14,7 @@ export default function ProductTag({ product, content, tagSize }: Props) {
   const isSmall = tagSize.widthMm < 50;
   const barcodeWidth = isSmall ? 1 : 1.3;
   const barcodeHeight = isSmall ? 28 : 40;
-  const qrSize = isSmall ? 40 : 60;
+  const qrSize = isSmall ? 56 : 80;
 
   return (
     <div
