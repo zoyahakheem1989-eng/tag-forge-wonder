@@ -21,7 +21,10 @@ export type TagContent = 'brandLogo' | 'qrCode' | 'barcode' | 'productName' | 'p
 export type PaperSize = 'a4' | 'a3';
 
 export const TAG_SIZES: TagSize[] = [
+  { id: 15, label: '1" × 1"', widthIn: 1, heightIn: 1, widthMm: 25.4, heightMm: 25.4 },
   { id: 12, label: '1" × 2"', widthIn: 1, heightIn: 2, widthMm: 25.4, heightMm: 50.8 },
+  { id: 16, label: '1.3" × 1.3"', widthIn: 1.3, heightIn: 1.3, widthMm: 33.02, heightMm: 33.02 },
+  { id: 17, label: '1.3" × 2"', widthIn: 1.3, heightIn: 2, widthMm: 33.02, heightMm: 50.8 },
   { id: 13, label: '1.375" × 2"', widthIn: 1.375, heightIn: 2, widthMm: 34.93, heightMm: 50.8 },
   { id: 1, label: 'Size 1', widthIn: 1.375, heightIn: 2.75, widthMm: 34.93, heightMm: 69.85 },
   { id: 2, label: 'Size 2', widthIn: 1.625, heightIn: 3.25, widthMm: 41.28, heightMm: 82.55 },
