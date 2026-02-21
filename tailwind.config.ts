@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['IBM Plex Sans', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -57,6 +61,12 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        success: "hsl(var(--success))",
+        warning: "hsl(var(--warning))",
+        "price-strike": "hsl(var(--price-strike))",
+        "price-sale": "hsl(var(--price-sale))",
+        "tag-border": "hsl(var(--tag-border))",
+        "tag-bg": "hsl(var(--tag-bg))",
       },
       borderRadius: {
         lg: "var(--radius)",
